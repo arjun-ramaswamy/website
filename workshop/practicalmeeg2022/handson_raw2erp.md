@@ -420,7 +420,7 @@ Rather than looking at the average and go to the thresholded statistics straight
 
     cfg = [];;
     cfg.keeptrials = 'yes';
-    avg_trials = ft_timelockanalysis(cfg, data);
+    avg_all = ft_timelockanalysis(cfg, data);
 
 This results in the data being represented in a 3D array that is trials by channels by time: the dimord is `rpt_chan_time`. We can look at the time-locked response over all trials in a single channe; this is often called an ERP image.
 
